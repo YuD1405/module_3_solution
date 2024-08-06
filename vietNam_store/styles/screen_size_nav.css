@@ -1,0 +1,76 @@
+@media (min-width: 1200px) {
+    .navbar-brand {
+        width: 20%;
+        justify-content: center;
+    }
+    #quote {
+        width: 40%;
+    }
+    #navbarNav {
+        width: 40%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-brand {
+        width: 20%;
+        justify-content: center;
+    }
+    #quote {
+        width: 40%;
+    }
+    #navbarNav {
+        width: 40%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        justify-content: left;
+    }
+    #navbarNav {
+        width: 70%;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        justify-content: left;
+    }
+    .menu-item-photo {
+        margin-right: auto;
+    }
+    .menu-item-tile .menu-item-price {
+        text-align: center;
+    }
+    .menu-item-description {
+        text-align: center;
+    }
+}
+
+@media (max-width: 479px) {
+    .navbar-brand {
+        justify-content: left;
+    }
+    #menu-tile, #award-tile {
+        width: 280px;
+        margin: 0 auto 15px;
+    }
+    .panel-footer section {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .panel-footer section hr {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .menu-item-photo {
+        margin-right: auto;
+    }
+    .menu-item-tile .menu-item-price {
+        text-align: center;
+    }
+    .menu-item-description {
+        text-align: center;
+    }
+}
